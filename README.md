@@ -8,7 +8,7 @@
 3. Start development: `npm start`
 4. Run website locally
 5. To build the release version: `npm run build`
-6. When ready, push to GitHub and the action will build and publish your site to [GitHub Pages](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages)
+6. Site is ready for deployment, for example on Netlify
 
 
 ### This starter template uses [Bulma starter package](https://github.com/jgthms/bulma-star) with some changes:
