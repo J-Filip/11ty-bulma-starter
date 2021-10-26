@@ -7,25 +7,22 @@
 
 
 // // 1. Import the initial variables
-// @import "../../node_modules/bulma/sass/utilities/initial-variables";
+ @import "../../node_modules/bulma/sass/utilities/initial-variables";
 
 // // 2. Set your own initial variables - try it
 
-// // Update the blue shade, used for links
-// $blue: #06bcef;
-// // Add pink and its invert
-// $pink: #ff8080;
-// $pink-invert: #fff;
+// // Add purple
+ // $pink: #8034fc;
 // // Update the sans-serif font family
 // $family-sans-serif: "Helvetica", "Arial", sans-serif;
 
 // // 3. Set the derived variables
 
-// // Use the new pink as the primary color - try it
-// $primary: $pink;
-// $primary-invert: $pink-invert;
+// // Use the new pink as the primary color 
+// try it - change the first heading
+ // $primary: $pink;
 
 // // 4. Import the rest of Bulma
 
 
-// @import "../node_modules/bulma/bulma";
+@import "../../node_modules/bulma/bulma";
