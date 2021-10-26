@@ -1,0 +1,77 @@
+{
+  "_from": "bulma-start@0.0.4",
+  "_id": "bulma-start@0.0.4",
+  "_inBundle": false,
+  "_integrity": "sha512-/PbhZBs1tIqnU75eh1SVWKC2DeW+xtQaaKITRksvmlCSTp8BH88JJk+gML3XCGE2LhSWyHTT+AIh6mwtUyjlxQ==",
+  "_location": "/bulma-start",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "bulma-start@0.0.4",
+    "name": "bulma-start",
+    "escapedName": "bulma-start",
+    "rawSpec": "0.0.4",
+    "saveSpec": null,
+    "fetchSpec": "0.0.4"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/bulma-start/-/bulma-start-0.0.4.tgz",
+  "_shasum": "19a0783cd8f55d8f5b3d771c984ab56f72e75cb7",
+  "_spec": "bulma-start@0.0.4",
+  "_where": "/Users/jthomas/Desktop",
+  "author": {
+    "name": "Jeremy Thomas",
+    "email": "bbxdesign@gmail.com",
+    "url": "http://jgthms.com"
+  },
+  "bugs": {
+    "url": "https://github.com/jgthms/bulma-start/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Start package for Bulma",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "autoprefixer": "^9.7.6",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015-ie": "^6.7.0",
+    "bulma": "^0.9.3",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^7.1.0"
+  },
+  "homepage": "https://github.com/jgthms/bulma-start#readme",
+  "keywords": [
+    "sass",
+    "bulma",
+    "css",
+    "start"
+  ],
+  "license": "MIT",
+  "name": "bulma-start",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgthms/bulma-start.git"
+  },
+  "scripts": {
+    "css-build": "sass src/_sass/main.scss src/main.css",
+    "css-deploy": "npm run css-build && npm run css-postcss",
+    "css-postcss": "postcss --use autoprefixer --output src/main.css src/main.css",
+    "css-watch": "npm run css-build -- --watch",
+    "js-build": "babel src/_javascript --out-dir src/lib",
+    "js-watch": "npm run js-build -- --watch",
+    "eleventy-watch": "eleventy --serve",
+    "eleventy-build": "eleventy",
+    "start": "npm-run-all --parallel css-watch js-watch eleventy-watch",
+    "build": "npm run css-deploy && npm run js-build && npm run eleventy-build"
+  },
+  "version": "0.0.4",
+  "dependencies": {
+    "sass": "^1.43.3",
+    "sass-loader": "^12.2.0"
+  }
+}
