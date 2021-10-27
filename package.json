@@ -1,4 +1,7 @@
 {
+  "name": "Filip Jugkala",
+	"url": "https://11ty-bulma-starter.netlify.app/",
+	"description": "11ty-bulma starter with sass enabled.",
   "_from": "bulma-start@0.0.4",
   "_id": "bulma-start@0.0.4",
   "_inBundle": false,
@@ -21,19 +24,11 @@
   ],
   "_resolved": "https://registry.npmjs.org/bulma-start/-/bulma-start-0.0.4.tgz",
   "_shasum": "19a0783cd8f55d8f5b3d771c984ab56f72e75cb7",
-  "_spec": "bulma-start@0.0.4",
-  "_where": "/Users/jthomas/Desktop",
-  "author": {
-    "name": "Jeremy Thomas",
-    "email": "bbxdesign@gmail.com",
-    "url": "http://jgthms.com"
-  },
   "bugs": {
     "url": "https://github.com/jgthms/bulma-start/issues"
   },
   "bundleDependencies": false,
   "deprecated": false,
-  "description": "Start package for Bulma",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
     "autoprefixer": "^9.7.6",
@@ -51,12 +46,6 @@
     "css",
     "start"
   ],
-  "license": "MIT",
-  "name": "bulma-start",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jgthms/bulma-start.git"
-  },
   "scripts": {
     "css-build": "sass src/_sass/main.scss src/main.css",
     "css-deploy": "npm run css-build && npm run css-postcss",
