@@ -1,6 +1,6 @@
 # 11ty-bulma starter
 
-1ty-bulma starter is a basic template using 11ty and Bulma. - [DEMO]()
+11ty-bulma starter is a basic template using 11ty and Bulma. - [DEMO]()
 
 ## How to use
 1. [Create a new repo from this 11ty-bulma starter template](https://github.com/J-Filip/11ty-bulma-starter/generate)
