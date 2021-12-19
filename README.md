@@ -1,6 +1,7 @@
 # 11ty-bulma starter
 
-11ty-bulma starter is a basic template using 11ty and Bulma. - [DEMO](https://11ty-bulma-starter.netlify.app/)
+* 11ty-bulma starter is a basic template using 11ty and Bulma. - [DEMO](https://11ty-bulma-starter.netlify.app/) 
+* also available as a starter in [11ty docs](https://www.11ty.dev/docs/starter/)
 
 ## How to use
 1. [Create a new repo from this 11ty-bulma starter template](https://github.com/J-Filip/11ty-bulma-starter/generate)
